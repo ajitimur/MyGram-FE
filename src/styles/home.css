@@ -1,0 +1,28 @@
+.home {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  margin-left: auto;
+}
+
+
+.photos_container {
+  display: grid;
+  grid-auto-flow: row;
+  grid-area: "main";
+  /* flex-wrap: wrap; */
+}
+
+.photo_list {
+  display: grid;
+  grid-auto-flow: row;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.photo-li {
+  margin-left: 100px;
+}
